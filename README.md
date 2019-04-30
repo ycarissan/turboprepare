@@ -1,6 +1,8 @@
 # turboprepare
 
-Bash scripts to run call automatically the define script os turbomole
+Bash scripts to run call automatically the define script of the turbomole (http://www.turbomole-gmbh.com/)
+
+**Please note that this project does not involve the turbomole team at all.
 
 ```
 USAGE: turboprepare -g geom.xyz [ -c MOLECULARCHARGE ] [ -b BASENAME ] [ -d FUNCNAME ] [-s]
