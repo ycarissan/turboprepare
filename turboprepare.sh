@@ -11,7 +11,9 @@ usage() {
   exit 1
 }
 
-. /share//programs/bin/functions_define.sh
+DIRNAME=/share/programs/bin
+
+. ${DIRNAME}/functions_define.sh
 
 GEOMFILE=""
 KEEP=1
