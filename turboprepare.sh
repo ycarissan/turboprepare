@@ -1,5 +1,10 @@
 #!/bin/sh
 
+#BEGIN CONFIGURATION
+# * EDIT DIRNAME TO THE PATH OF THE FILE functions_define.sh 
+DIRNAME=$HOME/prog/turboprepare
+#END CONFIGURATION
+
 usage() {
   echo
   echo "  USAGE: "`basename $0`" -g geom.xyz [ -c MOLECULARCHARGE ] [ -b BASENAME ] [ -d FUNCNAME ] [-s]"
@@ -10,8 +15,6 @@ usage() {
   echo
   exit 1
 }
-
-DIRNAME=./
 
 . ${DIRNAME}/functions_define.sh
 
