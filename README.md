@@ -2,7 +2,7 @@
 
 Bash scripts to run call automatically the define script of the turbomole (http://www.turbomole-gmbh.com/)
 
-**Please note that this project does not involve the turbomole team at all.**
+**Please note that this project does not involve the turbomole team at all. They will not provide any help, they probably even do not know about that project.**
 
 ```
 USAGE: turboprepare -g geom.xyz [ -c MOLECULARCHARGE ] [ -b BASENAME ] [ -d FUNCNAME ] [-s]
