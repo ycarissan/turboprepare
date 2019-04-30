@@ -11,7 +11,7 @@ usage() {
   exit 1
 }
 
-DIRNAME=/share/programs/bin
+DIRNAME=./
 
 . ${DIRNAME}/functions_define.sh
 
