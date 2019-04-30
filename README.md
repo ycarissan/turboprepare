@@ -9,5 +9,10 @@ USAGE: turboprepare -g geom.xyz [ -c MOLECULARCHARGE ] [ -b BASENAME ] [ -d FUNC
  -s epsilon for COSMO
      infinity for water
 ```
-* FUNCNAME can be any valid functional name in turbomole between quotes if necessary (i.e. if there's is a special character in the name)
-* BASENAME can be any valid basis set name in turbomole between quotes if necessary (i.e. if there's is a special character in the name)
+* geom.xyz: xyz file describing one geometry
+* MOLECULARCHARGE: molecular charge as a signed integer
+* FUNCNAME: can be any valid functional name in turbomole between quotes if necessary (i.e. if there's is a special character in the name)
+* BASENAME: can be any valid basis set name in turbomole between quotes if necessary (i.e. if there's is a special character in the name)
+* epsilon: value of epsilon to be used in COSMO
+
+Symmetry is handled automatically
